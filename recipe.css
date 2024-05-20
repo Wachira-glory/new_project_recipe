@@ -27,11 +27,6 @@ body {
     color: black;
   }
   
-  .topnav a.active {
-    background-color: white;
-    color: black;
-  }
-  
   .topnav .search-container {
     float: right;
   }
@@ -58,15 +53,7 @@ body {
     background: #ccc;
   }
   
-  
-  
-  body {
-      font-family: 'Arial', sans-serif;
-      background-color: #000;
-      color: #333;
-      margin: 0;
-      padding: 0;
-  }
+
   
   .container {
       display: flex;
