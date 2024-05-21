@@ -1,0 +1,229 @@
+header {
+    background-color: orange;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  .land{
+    margin-left: 12%;
+  }
+  .topnav {
+    overflow: hidden;
+    background-color: orange;
+  }
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover {
+    background-color:white;
+    color: black;
+  }
+  .topnav .search-container {
+    float: right;
+  }
+  .topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  }
+  .topnav .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background:orangered;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  .topnav .search-container button:hover {
+    background: #ccc;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .landingpage img{
+    border-radius: 45%;
+    height: 74%;
+  }
+  
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+    margin-left: 12%;
+  }
+  nav a{
+    color: white;
+    text-decoration: none;
+  }
+  .firstheader{
+    font-size: 245%;
+    line-height: 85%;
+    font-size: 185%;
+    color: orange;
+  }
+  .firstheaderr{
+    margin-left: 12%;
+    display: flex;
+    gap: 24%;
+    /* margin-top: %; */
+  }
+  .cate img{
+   border-radius: 265%;
+   
+  }
+  .afterfirstheader{
+    line-height: 192%;
+    margin-top: 3%;
+  }
+  .animatedchef img{
+    width: 98%;
+    height: 54%;
+  }
+  .cuisines{
+    color: orange;
+    text-align: center;
+    font-size: 434%;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .recipe{
+    color: orange;
+  }
+  .explore{
+  background-color: coral;
+  padding: 10px 17px;
+   border-color: coral;
+   border-radius: 23px;
+  }
+  .watchvideos{
+  background-color: coral;
+  padding: 10px 17px;
+   border-color: coral;
+   border-radius: 23px;
+  }
+  .firstbuttons{
+    display: flex;
+    gap: 5%;
+  }
+  .home_page{
+    margin-left: 12%;
+    margin-top: 7%;
+  }
+  .firsthomeparagraph{
+    font-size: 253%;
+  }
+  .fourimages img{
+    width: 45%;
+    border-radius: 23%;
+  }
+  .home_page{
+    display: flex;
+    gap: 15%;
+  }
+  .thefourimages{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-right: 12%;
+  }
+  body {
+    margin: 0;
+  }
+  /* div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  } */
+  .marquee {
+  /*   overflow: hidden; */
+  }
+  
+  .marquee-content {
+    display: flex;
+    animation: scrolling 10s linear infinite;
+  }
+  .marquee-item img{
+    width: 45%;
+    border-radius: 135%;
+  }
+  
+  .marquee-item {
+    flex: 0 0 16vw;
+    margin: 0 1vw;
+  /*   flex: 0 0 20vw; */
+  /*   margin: 0 2vw; */
+  }
+  
+  .marquee-item img {
+    display: block;
+    width: 100%;
+  /*   padding: 0 20px; */
+  }
+  
+  @keyframes scrolling {
+    0% { transform: translateX(0); }
+    100% { transform: translatex(-144vw); }
+  }
+  .categories{
+    display: flex;
+    gap: 30%;
+    margin-left: 12%;
+    line-height: 192%;
+  }
+  .cat{
+    color: orange;
+    font-size: 185%;
+  }
+ .footer{
+  background-color: black;
+  color: wheat;
+  padding: 108px 195px;
+  text-align: center;
+ }
+ /* .icons{
+  width: 13%;
+  display: block;
+ } */
+  
