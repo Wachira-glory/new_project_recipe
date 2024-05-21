@@ -1,47 +1,88 @@
-.topnav {
-    overflow: hidden;
-    background-color: orange;
-  }
-  .topnav a {
-    float: left;
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  .topnav a:hover {
-    background-color:white;
-    color: black;
-  }
-  .topnav .search-container {
-    float: right;
-  }
-  .topnav input[type=text] {
-    padding: 6px;
-    margin-top: 8px;
-    font-size: 17px;
-    border: none;
-  }
-  .topnav .search-container button {
-    float: right;
-    padding: 6px 10px;
-    margin-top: 8px;
-    margin-right: 16px;
-    background:orangered;
-    font-size: 17px;
-    border: none;
-    cursor: pointer;
-  }
-  .topnav .search-container button:hover {
-    background: #ccc;
-  }
-#recipes {
-    display: grid;
-    grid-template-columns: repeat(3,3fr);
+body {
+  padding-left: 210px;
+  padding-right: 210px;
 }
-#recipes img{
-width: 70%;
-height: 70%;
+.topnav {
+  overflow: hidden;
+  background-color: orange;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+.topnav .search-container {
+  float: right;
+}
+.topnav input[type="text"] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: orangered;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+/* Style for the recipe cards */
+#recipes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.recipe-holder {
+  width: 300px;
+  margin: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-holder img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.recipe-holder h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.recipe-holder p {
+  font-size: 0.9em;
+  line-height: 1.4;
+}
+
+.recipe-holder a {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #f44336;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+
+.recipe-holder a:hover {
+  background-color: #d32f2f;
 }
