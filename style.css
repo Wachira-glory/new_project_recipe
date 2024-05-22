@@ -1,0 +1,86 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+
+  }
+  header {
+    background-color: orange;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  .getstarted{
+    background-color: orange;
+    padding: 24px 51px;
+    border-radius: 12px;
+    margin-top: 16%;
+  }
+  .land{
+    margin-left: 100px;
+  }
+  .getready{
+    text-decoration: none;
+    color: white;
+    font-size:larger;
+    font-weight: bolder;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .landingpage{
+    margin-top: 70px;
+    border-left:solid  3px orange;
+  }
+  .landingpage img{
+    border-radius: 30%;
+     height: 700px; 
+     width: 80%;
+     padding-left: 100px;
+  }
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+    margin-left: 12%;
+  }
+  nav a{
+    color: white;
+    text-decoration: none;
+  }
+  main {
+    padding: 20px;
+  }
+  section {
+    margin-bottom: 20px;
+  }
+  
+  .bigtext{
+    color: rgb(5, 5, 5);
+font-size: 70px;
+    
+  }
+  .wasfa{
+    color: orange;
+  }
+  .text{
+    color: rgb(3, 3, 3);
+    font-size: xx-large;
+  }
+  button {
+    background-color:orange;
+    color: #fff;
+    padding: 15px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #555;
+  }
+  
+  .land{
+    display: flex;
+    gap: 150px;
+    justify-content: space-between;
+  }
+  #home{margin-top: 80px;}
