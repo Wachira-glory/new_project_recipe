@@ -41,7 +41,7 @@ body {
 .topnav .search-container button:hover {
   background: #ccc;
 }
-/* Style for the recipe cards */
+
 #recipes {
   display: flex;
   flex-wrap: wrap;
