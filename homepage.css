@@ -118,15 +118,15 @@ header {
     color: orange;
   }
   .explore{
-  background-color: coral;
+  background-color: orange;
   padding: 10px 17px;
-   border-color: coral;
+   border-color: orange;
    border-radius: 23px;
   }
   .watchvideos{
-  background-color: coral;
+  background-color:orange;
   padding: 10px 17px;
-   border-color: coral;
+   border-color: orange;
    border-radius: 23px;
   }
   .firstbuttons{
@@ -138,7 +138,7 @@ header {
     margin-top: 7%;
   }
   .firsthomeparagraph{
-    font-size: 253%;
+    font-size: 65px;
   }
   .fourimages img{
     width: 45%;

@@ -13,6 +13,9 @@ document.getElementById('add-recipe-form').addEventListener('submit', function(e
     document.getElementById('add-recipe-form').reset();
 });
 
+
+
+
 function displayRecipe(recipe) {
     const recipeList = document.getElementById('recipe-list');
     const recipeDiv = document.createElement('div');
